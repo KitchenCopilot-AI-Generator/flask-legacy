@@ -1,56 +1,30 @@
 {
   "ingredients": {
     "Dairy": [
-      "eggs",
-      "Philadelphia cream cheese",
-      "string cheese stick",
-      "Land O\u2019Lakes butter"
+      "Greek style natural yogurt",
+      "Philadelphia cream cheese"
     ],
     "Produce": [
-      "cilantro",
-      "mint leaves",
-      "arugula",
-      "apples",
-      "pears",
-      "bananas",
-      "oranges",
+      "Red bell peppers",
       "Yellow bell pepper",
-      "red bell pepper",
-      "green bell pepper",
-      "tomatoes",
-      "carrots",
-      "red cabbage"
+      "Tomatoes"
     ],
-    "Proteins": [],
-    "Grains": [
-      "tortillas"
+    "Proteins": [
+      "Egg carton (likely contains eggs)"
     ],
+    "Grains": [],
     "Condiments": [
-      "mayonnaise (Hellman's)",
-      "Heinz tomato ketchup",
-      "Gulden's spicy brown mustard",
-      "Annie's dressing",
-      "maple syrup",
-      "soy sauce",
-      "dijon mustard"
+      "Jar of mustard",
+      "ProActiv cholesterol spread"
     ],
-    "Beverages": [
-      "apple cider",
-      "grenadine"
-    ],
+    "Beverages": [],
     "Snacks": [
-      "almonds"
+      "Packaged dessert cup (possibly fruit or pudding based)"
     ],
     "Frozen": [],
-    "Canned": [
-      "tomato paste"
-    ],
+    "Canned": [],
     "Other": [
-      "pickles",
-      "sun-dried tomatoes",
-      "jarred beets or pickled vegetables",
-      "pickled onions",
-      "cooked pasta"
+      "Dried herbs or ground coffee in a jar"
     ]
   }
 }

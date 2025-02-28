@@ -1,166 +1,153 @@
 {
   "recipes": [
     {
-      "name": "Cheesy Egg and Veggie Wraps",
+      "name": "Roasted Bell Pepper and Tomato Frittata",
       "total_ingredients": [
-        "eggs",
-        "Philadephia cream cheese",
-        "string cheese stick",
-        "Land O\u2019Lakes butter",
-        "arugula",
+        "Eggs",
+        "Red bell peppers",
         "Yellow bell pepper",
-        "red bell pepper",
-        "green bell pepper",
-        "tortillas"
+        "Tomatoes",
+        "Dried herbs",
+        "ProActiv cholesterol spread",
+        "Salt",
+        "Black pepper"
       ],
       "available_ingredients": [
-        "eggs",
-        "Philadephia cream cheese",
-        "string cheese stick",
-        "Land O\u2019Lakes butter",
-        "arugula",
+        "Eggs",
+        "Red bell peppers",
         "Yellow bell pepper",
-        "red bell pepper",
-        "green bell pepper",
-        "tortillas"
-      ],
-      "missing_ingredients": [],
-      "completeness_score": 100,
-      "instructions": [
-        "Step 1: Scramble the eggs with a little butter until fully cooked.",
-        "Step 2: Chop the bell peppers and saut\u00e9 them with some butter until slightly soft.",
-        "Step 3: Spread cream cheese on the tortillas.",
-        "Step 4: Add cooked scrambled eggs, saut\u00e9ed peppers, and string cheese to the tortilla.",
-        "Step 5: Roll the tortillas and warm them on a skillet until the cheese melts.",
-        "Step 6: Add fresh arugula before serving."
-      ],
-      "cooking_time": "20 minutes",
-      "difficulty": "Easy"
-    },
-    {
-      "name": "Fruit and Nut Arugula Salad",
-      "total_ingredients": [
-        "arugula",
-        "apples",
-        "pears",
-        "almonds",
-        "mint leaves",
-        "Annie's dressing"
-      ],
-      "available_ingredients": [
-        "arugula",
-        "apples",
-        "pears",
-        "almonds",
-        "mint leaves",
-        "Annie's dressing"
-      ],
-      "missing_ingredients": [],
-      "completeness_score": 100,
-      "instructions": [
-        "Step 1: Chop apples and pears into thin slices.",
-        "Step 2: Rinse and dry arugula, place in a large salad bowl.",
-        "Step 3: Add sliced apples, pears, and almonds to the arugula.",
-        "Step 4: Tear mint leaves into small pieces and add to salad.",
-        "Step 5: Toss everything with Annie's dressing.",
-        "Step 6: Serve immediately for a fresh salad."
-      ],
-      "cooking_time": "10 minutes",
-      "difficulty": "Easy"
-    },
-    {
-      "name": "Apple Cheddar Panini",
-      "total_ingredients": [
-        "apples",
-        "Land O\u2019Lakes butter",
-        "string cheese stick",
-        "tortillas",
-        "basil"
-      ],
-      "available_ingredients": [
-        "apples",
-        "Land O\u2019Lakes butter",
-        "string cheese stick",
-        "tortillas"
+        "Tomatoes",
+        "Dried herbs",
+        "ProActiv cholesterol spread"
       ],
       "missing_ingredients": [
-        "basil"
+        "Salt",
+        "Black pepper"
       ],
-      "completeness_score": 80,
+      "completeness_score": 75,
       "instructions": [
-        "Step 1: Thinly slice the apple using a knife or mandoline.",
-        "Step 2: Spread butter on one side of each tortilla.",
-        "Step 3: On the non-buttered side, layer slices of apple and string cheese.",
-        "Step 4: Optionally, add fresh basil leaves for extra flavor.",
-        "Step 5: Fold the tortilla and grill on a panini press until golden and cheesy.",
-        "Step 6: Cut in half and serve warm."
-      ],
-      "cooking_time": "15 minutes",
-      "difficulty": "Medium"
-    },
-    {
-      "name": "Spicy Cream Cheese Stuffed Bell Peppers",
-      "total_ingredients": [
-        "Philadephia cream cheese",
-        "Gulden's spicy brown mustard",
-        "red bell pepper",
-        "green bell pepper",
-        "Yellow bell pepper"
-      ],
-      "available_ingredients": [
-        "Philadephia cream cheese",
-        "Gulden's spicy brown mustard",
-        "red bell pepper",
-        "green bell pepper",
-        "Yellow bell pepper"
-      ],
-      "missing_ingredients": [],
-      "completeness_score": 100,
-      "instructions": [
-        "Step 1: Preheat oven to 375\u00b0F (190\u00b0C).",
-        "Step 2: Cut the tops of the bell peppers and scoop out the seeds.",
-        "Step 3: Mix cream cheese with a drizzle of spicy brown mustard in a bowl.",
-        "Step 4: Stuff each bell pepper with the cream cheese mixture.",
-        "Step 5: Place stuffed peppers in a baking dish and bake for 20-25 minutes until peppers are tender.",
-        "Step 6: Serve warm as an appetizer or side dish."
+        "Step 1: Preheat the oven to 375\u00b0F (190\u00b0C).",
+        "Step 2: Chop the red and yellow bell peppers, and tomatoes.",
+        "Step 3: In an ovenproof skillet, melt the ProActiv spread over medium heat.",
+        "Step 4: Add the chopped vegetables and saut\u00e9 until soft.",
+        "Step 5: Beat the eggs with a pinch of salt and black pepper, then pour over the vegetables.",
+        "Step 6: Sprinkle with dried herbs and transfer the skillet to the oven.",
+        "Step 7: Bake for 15-20 minutes or until the eggs are set.",
+        "Step 8: Let it cool slightly before serving."
       ],
       "cooking_time": "30 minutes",
       "difficulty": "Easy"
     },
     {
-      "name": "Pasta Primavera with Tomato and Pickled Onions",
+      "name": "Cream Cheese and Herb Stuffed Peppers",
       "total_ingredients": [
-        "cooked pasta",
-        "tomatoes",
-        "arugula",
-        "pickled onions",
-        "red cabbage",
-        "dijon mustard",
-        "Land O\u2019Lakes butter",
-        "sun-dried tomatoes"
+        "Philadelphia cream cheese",
+        "Red bell peppers",
+        "Dried herbs",
+        "Salt",
+        "Black pepper"
       ],
       "available_ingredients": [
-        "cooked pasta",
-        "tomatoes",
-        "arugula",
-        "pickled onions",
-        "red cabbage",
-        "dijon mustard",
-        "Land O\u2019Lakes butter",
-        "sun-dried tomatoes"
+        "Philadelphia cream cheese",
+        "Red bell peppers",
+        "Dried herbs"
       ],
-      "missing_ingredients": [],
-      "completeness_score": 100,
+      "missing_ingredients": [
+        "Salt",
+        "Black pepper"
+      ],
+      "completeness_score": 60,
       "instructions": [
-        "Step 1: In a large skillet, melt butter over medium heat.",
-        "Step 2: Add chopped tomatoes and sun-dried tomatoes to the skillet and cook until soft.",
-        "Step 3: Toss in shredded red cabbage and cook until just wilted.",
-        "Step 4: Add cooked pasta to the skillet along with a splash of dijon mustard.",
-        "Step 5: Stir in pickled onions and arugula, cooking just until arugula is wilted.",
-        "Step 6: Serve hot, garnished with extra pickled onions if desired."
+        "Step 1: Preheat the oven to 350\u00b0F (175\u00b0C).",
+        "Step 2: Cut the tops off of the red bell peppers and remove the seeds.",
+        "Step 3: In a bowl, mix Philadelphia cream cheese with dried herbs, salt, and black pepper.",
+        "Step 4: Stuff the bell peppers with the cream cheese mixture.",
+        "Step 5: Place the stuffed peppers in a baking dish and bake for 25 minutes.",
+        "Step 6: Serve warm."
       ],
-      "cooking_time": "25 minutes",
+      "cooking_time": "35 minutes",
       "difficulty": "Medium"
+    },
+    {
+      "name": "Greek Yogurt Mustard Dip",
+      "total_ingredients": [
+        "Greek style natural yogurt",
+        "Jar of mustard",
+        "Dried herbs",
+        "Salt"
+      ],
+      "available_ingredients": [
+        "Greek style natural yogurt",
+        "Jar of mustard",
+        "Dried herbs"
+      ],
+      "missing_ingredients": [
+        "Salt"
+      ],
+      "completeness_score": 75,
+      "instructions": [
+        "Step 1: In a bowl, combine Greek style natural yogurt and a tablespoon of mustard.",
+        "Step 2: Stir in the dried herbs and a pinch of salt.",
+        "Step 3: Mix well and refrigerate for at least 30 minutes before serving as a dip."
+      ],
+      "cooking_time": "5 minutes prep, 30 minutes chill",
+      "difficulty": "Easy"
+    },
+    {
+      "name": "Mustard Yogurt Marinated Chicken",
+      "total_ingredients": [
+        "Chicken breasts",
+        "Greek style natural yogurt",
+        "Jar of mustard",
+        "Dried herbs",
+        "Salt",
+        "Black pepper"
+      ],
+      "available_ingredients": [
+        "Greek style natural yogurt",
+        "Jar of mustard",
+        "Dried herbs"
+      ],
+      "missing_ingredients": [
+        "Chicken breasts",
+        "Salt",
+        "Black pepper"
+      ],
+      "completeness_score": 50,
+      "instructions": [
+        "Step 1: In a bowl, mix Greek yogurt, mustard, and dried herbs together.",
+        "Step 2: Season with salt and black pepper.",
+        "Step 3: Marinate chicken breasts in the mixture for at least 2 hours.",
+        "Step 4: Preheat grill to medium-high heat.",
+        "Step 5: Grill the chicken breasts for about 6-7 minutes on each side until fully cooked.",
+        "Step 6: Serve with a side of grilled vegetables."
+      ],
+      "cooking_time": "20 minutes + marination",
+      "difficulty": "Medium"
+    },
+    {
+      "name": "Coffee Flavored Pudding Dessert",
+      "total_ingredients": [
+        "Packaged dessert cup",
+        "Ground coffee",
+        "Whipped cream"
+      ],
+      "available_ingredients": [
+        "Packaged dessert cup",
+        "Ground coffee"
+      ],
+      "missing_ingredients": [
+        "Whipped cream"
+      ],
+      "completeness_score": 66,
+      "instructions": [
+        "Step 1: Prepare a pot of strong coffee using the ground coffee.",
+        "Step 2: Chill the coffee in the refrigerator.",
+        "Step 3: Before serving, fold a small amount of the chilled coffee into the packaged dessert cup.",
+        "Step 4: Top with whipped cream and serve."
+      ],
+      "cooking_time": "15 minutes prep",
+      "difficulty": "Easy"
     }
   ]
 }

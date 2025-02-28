@@ -132,7 +132,7 @@ def setup_api_mode():
 def main():
     """Main entry point for the application"""
     parser = argparse.ArgumentParser(description="Fridge Recipe Generator")
-    parser.add_argument("--mode", choices=["cli", "api"], default="cli", help="Run mode (cli or api)")
+    parser.add_argument("--mode", choices=["cli", "api"], default="api", help="Run mode (cli or api)")
     parser.add_argument("--action", choices=["analyze", "recipes", "both"], default="both", help="Action to perform in CLI mode")
     parser.add_argument("--image", help="Image filename for analysis (in input directory)")
     parser.add_argument("--recipes", type=int, default=5, help="Number of recipes to generate")

@@ -5,53 +5,65 @@ import RecipesList from './components/RecipesList';
 import { analyzeImage, generateRecipes } from './api/api';
 import './index.css';
 
-function App() {
+// Define types for state variables
+interface Ingredient {
+  name: string;
+}
+
+interface Recipe {
+  title: string;
+  ingredients: string[];
+  instructions: string;
+}
+
+const App: React.FC = () => {
   // State for ingredients, recipes, loading states, and errors
-  const [ingredients, setIngredients] = useState(null);
-  const [recipes, setRecipes] = useState(null);
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [isGeneratingRecipes, setIsGeneratingRecipes] = useState(false);
-  const [ingredientsError, setIngredientsError] = useState(null);
-  const [recipesError, setRecipesError] = useState(null);
+  const [ingredients, setIngredients] = useState<Ingredient[] | null>(null);
+  const [recipes, setRecipes] = useState<Recipe[] | null>(null);
+  const [isAnalyzing, setIsAnalyzing] = useState<boolean>(false);
+  const [isGeneratingRecipes, setIsGeneratingRecipes] = useState<boolean>(false);
+  const [ingredientsError, setIngredientsError] = useState<string | null>(null);
+  const [recipesError, setRecipesError] = useState<string | null>(null);
 
   // Handle analyze image
-  const handleAnalyzeImage = async (imageFile) => {
+  const handleAnalyzeImage = async (imageFile: File) => {
     try {
       // Reset states
       setIngredients(null);
       setRecipes(null);
       setIngredientsError(null);
       setRecipesError(null);
-      
+
       console.log("Starting image analysis...");
       // Start loading
       setIsAnalyzing(true);
-      
+
       // Analyze image
-      const analysisResult = await analyzeImage(imageFile);
+      const analysisResult: Ingredient[] = await analyzeImage(imageFile);
       console.log("Analysis completed with result:", analysisResult);
-      
+
       // Set ingredients
       setIngredients(analysisResult);
       console.log("Ingredients state set with:", analysisResult);
-      
+
       console.log("Starting recipe generation...");
       // Generate recipes
       setIsGeneratingRecipes(true);
-      const recipesResult = await generateRecipes(5);
+      const recipesResult: Recipe[] = await generateRecipes(5);
       console.log("Recipes generated with result:", recipesResult);
-      
+
       // Set recipes
       setRecipes(recipesResult);
       console.log("Recipes state set with:", recipesResult);
-      
     } catch (error) {
       console.error('Error in analyze workflow:', error);
-      
+
+      const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
+
       if (!ingredients) {
-        setIngredientsError(typeof error === 'string' ? error : 'Failed to analyze image');
+        setIngredientsError(errorMessage);
       } else {
-        setRecipesError(typeof error === 'string' ? error : 'Failed to generate recipes');
+        setRecipesError(errorMessage);
       }
     } finally {
       // Stop loading
@@ -67,7 +79,7 @@ function App() {
         <h1 className="app-title">AI Recipe Generator</h1>
         <p className="app-subtitle">Upload a photo of your ingredients and get recipe suggestions!</p>
       </header>
-      
+
       <main className="container">
         <div className="grid grid-cols-2">
           <div className="section">
@@ -76,7 +88,7 @@ function App() {
               onAnalyzeImage={handleAnalyzeImage} 
               isLoading={isAnalyzing || isGeneratingRecipes} 
             />
-            
+
             {/* Ingredients Section */}
             {(ingredients || isAnalyzing || ingredientsError) && (
               <IngredientsList 
@@ -86,7 +98,7 @@ function App() {
               />
             )}
           </div>
-          
+
           <div className="section">
             {/* Recipes Section */}
             {(recipes || isGeneratingRecipes || recipesError) && (
@@ -99,7 +111,7 @@ function App() {
           </div>
         </div>
       </main>
-      
+
       <footer className="footer">
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Fridge Recipe Generator</p>
@@ -107,6 +119,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
 export default App;
